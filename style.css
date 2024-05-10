@@ -1,0 +1,90 @@
+/* Reset some basic elements */
+.toptop-video-download-container,
+.toptop-video-download-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container style */
+.toptop-video-download-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for form */
+#toptop-video-download-form {
+    margin-bottom: 20px;
+}
+
+#toptop-video-download-form input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#toptop-video-download-form input[type="submit"] {
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#toptop-video-download-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Style for the video iframe */
+.toptop-video-download-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Download buttons styles */
+.toptop-download-buttons {
+    text-align: center;
+}
+
+.toptop-download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px 10px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.toptop-download-button:hover {
+    background-color: #0069d9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #toptop-video-download-form input[type="text"] {
+        width: calc(100% - 84px);
+    }
+
+    #toptop-video-download-form input[type="submit"] {
+        width: 74px;
+    }
+
+    .toptop-video-download-container iframe {
+        height: 300px;
+    }
+}

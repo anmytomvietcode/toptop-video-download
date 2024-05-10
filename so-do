@@ -1,0 +1,8 @@
+toptop-video-download/
+│
+├── toptop-video-download.php (file chính của plugin)
+├── ajax-handler.php (xử lý các yêu cầu AJAX)
+├── download-page.php (trang download video)
+├── admin-page.php (trang settings trong admin)
+└── js/
+    └── main.js (JavaScript cho frontend)
